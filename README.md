@@ -128,7 +128,7 @@ SELECT * FROM movies;
 
 - PostgreSQL (SQL syntax)
 - GitHub for version control and sharing
-- (Optional) Power BI or Excel for visualization
+
 
 ---
 
