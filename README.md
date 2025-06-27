@@ -68,7 +68,7 @@ SELECT year, COUNT(*) AS movie_count FROM movies GROUP BY year;
 -- Which 10 movies earned the most at the box office?
 SELECT title, boxoffice_usd FROM movies ORDER BY boxoffice_usd DESC LIMIT 10;
 
--- Which movies made the highest profit (boxoffice_usd - budget_usd)?
+-- Which movies made the highest profit ?
 SELECT title, boxoffice_usd - budget_usd AS profit FROM movies ORDER BY profit DESC LIMIT 1;
 
 -- What is the average budget vs average box office by genre?
